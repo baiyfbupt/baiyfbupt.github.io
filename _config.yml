@@ -1,10 +1,10 @@
 # Site settings
 title: Baiyf Blog
 SEOTitle: 白一帆的博客 | Baiyf Blog
-header-img: img/home-bg-o.jpg
+header-img: img/post-bg-unix-linux.jpg
 email: baiyfbupt@gmail.com
 description: "关于程序，关于读书, 记录生活"
-keyword: "白一帆，博客"
+keyword: "机器学习，读书，博客"
 url: "https://baiyfbupt.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -14,8 +14,8 @@ future: true
 # SNS settings
 RSS: false
 #weibo_username:     huxpro
-#zhihu_username:     huxpro
-#github_username:    huxpro
+zhihu_username:     baiyfbupt
+github_username:    baiyfbupt
 #twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx

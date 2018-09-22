@@ -1,3 +1,7 @@
+### A software developmer, A photographer, An explorer
 
+Contact me if you have any question:
 
-> a developer
+**Github:** [baiyfbupt](https://github.com/baiyfbupt)
+
+**Email:** baiyfbupt@gmail.com
