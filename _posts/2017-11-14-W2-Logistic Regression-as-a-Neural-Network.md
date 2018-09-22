@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Neural Networks and Deep Learning 第二周"
+title:      "Neural Networks and Deep Learning 第二周笔记"
 subtitle:   "Neural Network Basics"
 date:       2017-11-14 12:00:00
 author:     "baiyf"
-header-img: "img/post/"
+header-img: "img/post/coursera-bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -12,57 +12,56 @@ tags:
     - Course
 ---
 
-#Logistic Regression as a Neural Network
-
-# sigmoid
+# Logistic Regression as a Neural Network
+## sigmoid
 
 在logistic regression后加一个非线性函数,例如sigmoid()可以使输出满足概率特性
 
-$0 \leq P_i \leq 1$
+\\[0 \leq P_i \leq 1\\]
 
-$\sum{P_i} = 1$
+\\[\sum{P_i} = 1\\]
 
 ## 损失Loss函数$L$
 
 损失函数常用预测值和标签的**交叉熵**定义:
 
-$L(\hat{y},y) = -(y * log\hat{y} + (1 - y) * log(1 - \hat{y})) $
+\\[L(\hat{y},y) = -(y * log\hat{y} + (1 - y) * log(1 - \hat{y})) \\]
 
-$y$代表标签,$\hat{y}$代表预测值
+$$y$$代表标签,$$\hat{y}$$代表预测值
 
 ##成本Cost函数$J$
 
 成本函数是损失函数$L$的求和取均值,是对整个训练集定义的
 
-$J(w,b) = \frac{1}{m}\sum_{i=1}^mL(\hat y^{(i)},y^{(i)})$
+\\[J(w,b) = \frac{1}{m}\sum_{i=1}^mL(\hat y^{(i)},y^{(i)})\\]
 
 ## 梯度下降法
 
-整个神经网络训练的目的就是使成本函数$J(w,b)$最小,可以用梯度下降法调整$w和b$满足要求,梯度下降可以定义为下面的形式,通过反复迭代找到最优解
+整个神经网络训练的目的就是使成本函数$$J(w,b)$$最小,可以用梯度下降法调整$$w$$和$$b$$满足要求,梯度下降可以定义为下面的形式,通过反复迭代找到最优解
 
 Repeat:{
 
-$w := w - \alpha\frac{dJ(w,b)}{dw}$
+\\[w := w - \alpha\frac{dJ(w,b)}{dw}\\]
 
-$b := b - \alpha\frac{dJ(w,b)}{db}$
+\\[b := b - \alpha\frac{dJ(w,b)}{db}\\]
 
-}#$\alpha代表学习率$
+}#$$\alpha$$代表学习率
 
 ## 计算图
 
 把一个计算过程用图形的方式表示出来,方便前向计算和反向求导
 
-![computation_graph](/home/baiyf/Desktop/computation_graph.png)
+![computation_graph](/img/post/computation_graph.jpg)
 
 ## 单层神经网络的梯度下降应用
 
 若神经网络可以定义为:
 
-$z = w_1x_1 + w_2x_2 +b$------>$a = \sigma(z)$------>$L(a,y)$
+\\[z = w_1x_1 + w_2x_2 +b$------>$a = \sigma(z)$------>$L(a,y)\\]
 
-$\frac{dL}{da} = -\frac{y}{a} + \frac{1-y}{1-a}$
+\\[\frac{dL}{da} = -\frac{y}{a} + \frac{1-y}{1-a}\\]
 
-$\frac{dL}{dz} = \frac{dL}{da} * \frac{da}{dz} = a - y$
+\\[\frac{dL}{dz} = \frac{dL}{da} * \frac{da}{dz} = a - y\\]
 
 # Python和向量化
 

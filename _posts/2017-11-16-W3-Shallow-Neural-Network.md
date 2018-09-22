@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Neural Networks and Deep Learning 第三周"
+title:      "Neural Networks and Deep Learning 第三周笔记"
 subtitle:   "Shallow Neural Networks"
 date:       2017-11-16 12:00:00
 author:     "baiyf"
-header-img: "img/post/"
+header-img: "img/post/coursera-bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -16,29 +16,29 @@ tags:
 
 ## 前向传播
 
-$Z^{[1]} = w^{[1]}X + b^{[1]}$
+\\[Z^{[1]} = w^{[1]}X + b^{[1]}\\]
 
-$A^{[1]} = g^{[1]}(Z^{[1]})$
+\\[A^{[1]} = g^{[1]}(Z^{[1]})\\]
 
-$Z^{[2]} = W^{[2]}A^{[1]} + b^{[2]}$
+\\[Z^{[2]} = W^{[2]}A^{[1]} + b^{[2]}\\]
 
-$A^{[2]} = g^{[2]}(Z^{[2]})$
+\\[A^{[2]} = g^{[2]}(Z^{[2]})\\]
 
-##反向传播
+## 反向传播
 
-$dA^{[2]} = -\frac{Y}{A^{[2]}} + \frac{1-Y}{1-A^{[2]}}$
+\\[dA^{[2]} = -\frac{Y}{A^{[2]}} + \frac{1-Y}{1-A^{[2]}}\\]
 
-$dZ^{[2]} = A^{[2]} - Y$
+\\[dZ^{[2]} = A^{[2]} - Y\\]
 
-$dw^{[2]} = \frac{1}{m}dZ^{[2]}A^{[1]T}$
+\\[dw^{[2]} = \frac{1}{m}dZ^{[2]}A^{[1]T}\\]
 
-$db^{[2]} = \frac{1}{m}np.sum(dZ^{[2]},axis = 1,keepdims = True)$
+\\[db^{[2]} = \frac{1}{m}np.sum(dZ^{[2]},axis = 1,keepdims = True)\\]
 
-$dZ^{[1]} = w^{[2]T}dZ^{[2]} * g^{[1]'}(Z^{[1]})​$
+\\[dZ^{[1]} = w^{[2]T}dZ^{[2]} * g^{[1]'}(Z^{[1]})​\\]
 
-$dw^{[1]} = \frac{1}{m}dZ^{[1]}X^{T}$
+\\[dw^{[1]} = \frac{1}{m}dZ^{[1]}X^{T}\\]
 
-$db^{[1]} = \frac{1}{m}np.sum(dZ^{[1]},axis = 1,keepdims = True)$
+\\[db^{[1]} = \frac{1}{m}np.sum(dZ^{[1]},axis = 1,keepdims = True)\\]
 
 ## 初始化参数
 
