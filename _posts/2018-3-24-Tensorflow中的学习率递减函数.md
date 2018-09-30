@@ -2,7 +2,7 @@
 layout:     post
 title:      "TensorFlow中常用的学习率递减方法"
 subtitle:   "TensorFlow learning rate decay"
-date:       2018-9-24 16:00:00
+date:       2018-3-24 16:00:00
 author:     "baiyf"
 header-img: "img/about-bg-walle.jpg"
 header-mask: 0.3
