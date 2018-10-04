@@ -8,7 +8,6 @@ header-img: "img/post/coursera-bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - Machine Learning
     - Course
 ---
 
