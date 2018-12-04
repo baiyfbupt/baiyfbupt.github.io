@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Densely Connected Convolutional Networks 论文阅读简记"
-subtitle:   "Computer Vision"
+title:      "Densely Connected Convolutional Networks"
+subtitle:   "论文阅读简记"
 date:       2018-12-4 14:00:00
 author:     "baiyf"
 header-img: "img/about-bg-walle.jpg"

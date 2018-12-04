@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Rethinking ImageNet Pre-training 论文阅读简记"
-subtitle:   "Computer Vision"
+title:      "Rethinking ImageNet Pre-training"
+subtitle:   "论文阅读简记"
 date:       2018-12-3 12:00:00
 author:     "baiyf"
 header-img: "img/about-bg-walle.jpg"
