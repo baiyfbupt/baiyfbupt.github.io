@@ -26,7 +26,7 @@ DenseNet的独特性在于，它在所有特征图（尺寸一样）之间建立
 
 ## 网络结构
 
-一. 网络结构概述
+一、 网络结构概述
 
 ![DenseNet_arch](\img\post\DenseNet_arch.png)
 
@@ -52,7 +52,7 @@ $$x_l=H_l([x_0,x_1,...,x_{l-1}])$$
 
 Table 1介绍了整个网络具体的结构，DenseNet也引入了与ResNet中的bottleneck结构，在每一个3*3卷积前做一个1\*1卷积来降维和减少参数量，DenseNet-BC代表既有bottleneck layer，又有Translation layer.
 
-二. 一些新的概念
+二、 一些新的概念
 
 1. 密集连接(Dense Connections)
 
