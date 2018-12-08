@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "MobileNets: V1 & V2"
+title:      "轻量级卷积神经网络(一)：MobileNets: V1 & V2"
 subtitle:   "论文阅读笔记"
 date:       2018-12-7 11:31:00
 author:     "baiyf"
