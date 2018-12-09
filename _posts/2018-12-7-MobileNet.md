@@ -23,7 +23,9 @@ MobileNets是为移动端和嵌入式设备提出的一种轻量级模型，文�
 
    文章使用了一种深度分离卷积的layer, 整个模型围绕这个结构展开
 
-   深度分离卷积就是：把标准卷积分割成**深度卷积(depthwise convolution)**和**逐点卷积(pointwise convolution)**, 好处是可以节省计算量和减少参数。引用论文中的示例来说明
+   深度分离卷积就是：把标准卷积分割成**深度卷积(depthwise convolution)**和**逐点卷积(pointwise convolution)**, 第一个卷积每个filter都只跟input的每一个channel做卷积, 并将结果concat起来，所以filter个数与M有关；后一个卷积负责combining，用跨channel的1x1卷积把上一部卷积得到的结果融合起来
+
+   这么做的好处是可以节省计算量和减少参数。引用论文中的示例来说明
 
    ![depwiseconv](/img/post/depwiseconv.png)
 
