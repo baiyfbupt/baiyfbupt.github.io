@@ -18,10 +18,7 @@
 
 # 特别感谢
 
-真诚的感谢以下三位博主/Github Owner，本博客从搭建到模板使用、功能实现都部分参考了他们之前的工作；感谢他们的分享和开源精神，让我这个前端白痴也有了一个独立开放的记录空间，谢谢
-
-- 感谢博主**窗外蟋蟀**提供的博客搭建教程：
-  - [如何快速搭建自己的github.io博客](https://blog.csdn.net/walkerhau/article/details/77394659?utm_source=debugrun&utm_medium=referral)
+真诚的感谢以下两位博主/Github Owner，本站的模板、功能实现参考了他们之前的工作；感谢他们的分享和开源精神，让我这个前端白痴也能有一个独立开放的记录空间，谢谢
 - 感谢博主**黄玄**开源的博客Jekyll主题
   - 他的博客：[Hux Blog](http://huangxuan.me)；他的Github:[huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)
 
