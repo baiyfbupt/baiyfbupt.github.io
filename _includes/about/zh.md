@@ -18,7 +18,7 @@
 
 # 特别感谢
 
-真诚的感谢以下两位博主/Github Owner，本站的模板、功能实现参考了他们之前的工作；感谢他们的分享和开源精神，让我这个前端白痴也能有一个独立开放的记录空间🍻，谢谢
+真诚的感谢以下两位博主/Github Owner，本站的模板、功能实现参考了他们之前的工作；感谢他们的分享和开源精神，让我这个前端黑洞也能有一个独立开放的记录空间🍻，谢谢
 - 感谢博主**黄玄**开源的博客Jekyll主题
   - 他的博客：[Hux Blog](http://huangxuan.me)；他的Github:[huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)
 
