@@ -14,7 +14,7 @@
 
 # 联系我
 - Github: [baiyfbupt](https://github.com/baiyfbupt)
-- Email: baiyfbupt@gmail.com
+- Email: <baiyfbupt@gmail.com>
 
 # 特别感谢
 
