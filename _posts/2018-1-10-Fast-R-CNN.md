@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "两阶段目标检测（二）：Fast R-CNN"
+title:      "2stage目标检测（二）：Fast R-CNN"
 subtitle:   "论文阅读笔记"
 date:       2019-1-10 15:15:00
 author:     "baiyf"
