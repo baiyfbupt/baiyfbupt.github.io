@@ -20,7 +20,7 @@ tags:
 
 ## 写在前面
 
-Faster R-CNN发表在ECCV-2016上，是RCNN系列的有一部加强版
+Faster R-CNN发表在ECCV-2016上，是RCNN系列的又一部加强版
 
 本文推出了RPN候选区生成网络，代替了传统的Selective search，该网络与Fast R-CNN网络共享一部分参数，可以完成端到端的训练
 
@@ -38,7 +38,7 @@ Faster R-CNN发表在ECCV-2016上，是RCNN系列的有一部加强版
 
 1. 首先对原始图片进行裁剪操作，将裁剪后的图片送进CNN中获取该图像对应的特征图
 2. 对特征图上的每一个锚点上选取9个候选的ROI（3个不同尺度，3个不同长宽比），并根据相应比例映射到原始图象中
-3. 随后将这些ROI送进RPN网络中，RPN网络对这些ROI进行二分类，同时进行回归（包括$ \Delta x, \Delta y, \Delta w, \Delta h$）,然后对ROI做NMS，选取其中最好的K个ROI
+3. 随后将这些ROI送进RPN网络中，RPN网络对这些ROI进行二分类，同时进行回归（包括$$ \Delta x, \Delta y, \Delta w, \Delta h$$）,然后对ROI做NMS，选取其中最好的K个ROI
 4. 然后对不同大小的ROI进行ROI Pooling，输出固定大小的feature map
 5. 最后将其输入简单的检测网络中，最后完成BB的分类与回归，输出检测结果BB
 
