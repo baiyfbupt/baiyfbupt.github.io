@@ -8,7 +8,7 @@ header-img: "img/post/coursera-bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - Course
+    - 公开课
 ---
 
 # Case studies
