@@ -8,7 +8,7 @@ header-img: "img/wooden.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - Tools
+    - 工具
 ---
 
 #  使用virtualenv搭建Python虚拟环境
