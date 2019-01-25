@@ -23,7 +23,7 @@ tags:
 
 Mask R-CNN是ICCV-2017的Best Paper，该算法在单GPU上达到了5fps的速度，并且在COCO数据集的三个挑战赛：instance segmentation、bounding-box object detecton、person keypoint detection中的效果都要优于现有的单模型算法
 
-文章的创新点主要有两个：
+文章的创新点主要有三个：
 
 1. 在Faster RCNN的基础上进行了扩展，新引入了一个并行FCN分支用于实例分割
 2. 引入了ROIAlign，消除了原来两次量化产生的误差
