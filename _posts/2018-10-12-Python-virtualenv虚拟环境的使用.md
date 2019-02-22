@@ -41,7 +41,7 @@ virtualenv --python /usr/local/python work
 
 执行后会在本地产生一个同名文件夹 ，`--python`参数用于指定使用的python版本
 
-另外，可以使用`--system-site-packages`参数来之定是哟个系统环境下的global site packags
+另外，可以使用`--system-site-packages`参数来之定是哪个系统环境下的global site packags
 
 ```shell
 virtualenv --system-site-packages work
