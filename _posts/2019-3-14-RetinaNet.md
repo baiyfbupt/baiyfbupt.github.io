@@ -30,11 +30,11 @@ tags:
 
 本文将传统的`交叉熵损失函数CE`进行改进，将`简单负样本loss值进行降权`。换言之，就是让模型更专注于困难负样本和正样本，作者在`FPN`的基础上做了这部分改进，loss函数的改进如下图所示
 
-![focal_loss](focal_loss.jpg)
+![focal_loss](/img/post/focal_loss.jpg)
 
 改进之后与现阶段state-of-art算法的性能对比如下图所示：
 
-![RetinaNet](RetinaNet.jpg)
+![RetinaNet](/img/post/RetinaNet.jpg)
 
 ## 开源代码
 
