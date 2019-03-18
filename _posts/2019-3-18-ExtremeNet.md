@@ -89,4 +89,5 @@ ExtremeNet的输出通道数为：$$5*c+4*2​$$。对每个类别，预测4张�
 
 ## 参考文献
 
-[Bottom-up Object Detection by Grouping Extreme and Center Points](https://arxiv.org/pdf/1901.08043.pdf)
+1. [Bottom-up Object Detection by Grouping Extreme and Center Points](https://arxiv.org/pdf/1901.08043.pdf)
+2. [论文学习笔记ExtremeNet（Bottom-up Object Detection by Grouping Extreme and Center Points）](https://blog.csdn.net/sinat_37532065/article/details/86693930)
